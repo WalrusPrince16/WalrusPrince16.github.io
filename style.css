@@ -62,3 +62,9 @@ h1 {
 .card {
   width: 100%;
 }
+
+@media (min-width: 992px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+}
