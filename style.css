@@ -14,11 +14,11 @@ h3, h4, h5, p {
 }
 
 .jumbotron {
-  background-image: url("images-11-magic.jpg");
+  background-image: url("mobile_jumbo.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .vertical-center {
   height: 100%;
@@ -65,6 +65,7 @@ h1 {
 
 @media (min-width: 992px) {
   .jumbotron {
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-image: url("desktop_jumbo.jpg");
   }
 }
