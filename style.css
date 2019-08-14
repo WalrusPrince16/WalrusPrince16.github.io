@@ -5,11 +5,19 @@ a {
 i {
   color: white;
 }
+h2 i {
+  color: black;
+}
 h2 {
   font-family: "Roboto", serif;
 }
 h3, h4, h5, p {
   font-family: "Merriweather", serif;
+}
+span {
+  text-decoration: line-through;
+  color: white !important;
+  text-decoration-color: rgba(10, 0, 0, .4);
 }
 .jumbotron {
   background-image: url("mobile_jumbo.jpg");
@@ -35,11 +43,6 @@ h1 {
   animation-duration: 1.2s;
   animation-timing-function: linear;
 }
-
-button:hover {
-  color: black;
-}
-
 @keyframes title {
   0% {
     top: 100px;
