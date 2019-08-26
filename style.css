@@ -19,8 +19,12 @@ span {
   color: white !important;
   text-decoration-color: rgba(10, 0, 0, .4);
 }
+.nav-link {
+  font-size: 1.5rem;
+}
 .jumbotron {
-  background-image: url("mobile_jumbo.jpg");
+  /* Mobile background */
+  background-image: url("./images/tj.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +34,7 @@ span {
   height: 100%;
   width: 100%;
   /* Creates a transparent filter to cover the jumbotron */
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .45);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -68,10 +72,15 @@ h1 {
 
 .card {
   width: 100%;
-  height: auto;
 }
 .card-text {
   max-height: 10rem;
+}
+.carousel {
+  max-width: 80vh;
+}
+.carousel img {
+  max-height: 100vh;
 }
 
 // (landscape phones, 576px and up)
@@ -86,6 +95,7 @@ h1 {
 
 // (desktops, 992px and up)
 @media (min-width: 992px) {
+  /* desktop background */
   .jumbotron {
     background-attachment: fixed;
     background-image: url("desktop_jumbo.jpg");
