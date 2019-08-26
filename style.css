@@ -73,9 +73,17 @@ h1 {
 .card {
   width: 100%;
 }
+.card-title {
+  font-size: 1.5rem;
+}
 .card-text {
   max-height: 10rem;
 }
+.card ul li {
+  font-size: 1.2rem;
+}
+
+
 .carousel {
   max-width: 80vh;
 }
